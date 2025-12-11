@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Engine Demo</title>
+    <script src="./spa-d2434c7d56ecc2c0.js" integrity="sha384-0QoUeZ8AE0vDv3q2FaI5AcrLZmJEDbMtR3+bSu/a7BJPFnjolSafjbenwK4Dmdpk"></script>
+    <link rel="stylesheet" href="./style-c3421660811fef10.css" integrity="sha384-xu/wvpEicyp+3tUEivh08WUV+DWZ9f6wqa9wohybhiblEmSQXP9GsARq38T09GTY"/>
+    
+<script type="module">
+import init, * as bindings from './web-leptos-c47bd87593ba3624.js';
+const wasm = await init({ module_or_path: './web-leptos-c47bd87593ba3624_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+  <link rel="modulepreload" href="./web-leptos-c47bd87593ba3624.js" crossorigin="anonymous" integrity="sha384-qyzFddNv6lbislAkFtWFPU7T11O8j0jgA+WQ0rZSvlE/yMXffdkVoD0E00W18rAs"><link rel="preload" href="./web-leptos-c47bd87593ba3624_bg.wasm" crossorigin="anonymous" integrity="sha384-hTQyqUyA+zgjfg0x7UF4+OSQq+77emuInBGZtJ86Gx9J32sOULdlAGLGuiETEVsS" as="fetch" type="application/wasm"></head>
+  <body></body>
+</html>
