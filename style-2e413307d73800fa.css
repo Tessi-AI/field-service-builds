@@ -448,6 +448,13 @@ textarea {
   justify-content: space-between;
 }
 
+#debug-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
 button {
   padding: 15px 30px;
   border: none;
@@ -552,4 +559,12 @@ button {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.notes-container {
+  margin-top: 10px;
+}
+
+.add-photo-button-demo {
+  margin-top: 10px;
 }
